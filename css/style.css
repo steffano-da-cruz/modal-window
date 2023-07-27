@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  display: flex;
+  height: 100vh;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.show-modal {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1.5rem 2.8rem;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 15rem;
+  padding: 0rem 2rem 2rem 3.5rem;
+  background-color: white;
+  border-radius: 5px;
+  justify-self: space-evenly;
+  align-self: space-evenly;
+  position: absolute;
+  width: 64%;
+  top: 35%;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.close-modal {
+  align-self: flex-end;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  position: absolute;
+  z-index: 5;
+}
