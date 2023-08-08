@@ -1,5 +1,5 @@
 # Modal Window
-![Modal Window](/assets/images/readme-modal-window.png)
+![Modal Window](/assets/images/readme-modal.png)
 
 ## 💻 About the project
 Opening and closing a window using click and keydown events.
